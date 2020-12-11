@@ -1,0 +1,26 @@
+a = 1.010
+b = 2.100
+ 
+print(a > b)
+print(a < b)
+print(a == b)
+print(a != b)
+print(a >= b)
+print(a <= b)
+
+b = b+1.095
+
+print(a>b)
+print(a<b)
+print(a == b)
+print(a != b)
+print(a >= b)
+print(a <= b)
+
+b = b+0.005
+print(a > b)
+print(a < b)
+print(a == b)
+print(a != b)
+print(a >= b)
+print(a <= b)
