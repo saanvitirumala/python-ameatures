@@ -1,9 +1,7 @@
 
-sumlist = [1,2,3,4,5]
-i = 1
-b = 0
-while i <= len(sumlist):
-  b = b + i
-  i = i + 1
 
-print('sum equal to',b)
+sumlist = [1,2,3,4,5]
+a = 0
+for j in(sumlist):
+  a = a + j
+print('sum equal to',a)
