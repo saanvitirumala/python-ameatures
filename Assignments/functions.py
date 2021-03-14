@@ -26,3 +26,31 @@ def my_function4(*Fruits):
   print("The smallest fruit is:"+ Fruits[1])
 
 my_function4("apples","grape","Pinneapple")
+
+
+def my_function5(**Kid):
+  print("Her Last name is :" + lstname)
+
+my_function5(fname = "Saanvi",lastname = "Tirumala")
+
+def my_function6(country = "Russia"):
+    print("The biggest country is:",country)
+
+my_function6("India")
+my_function6("USA")
+my_function6("Brazil")
+my_function6("China")
+
+
+def my_function7(food):
+    for y in food:
+        print(y)
+
+Food = ["Bacon","Chicken nuggets","Brownies"]
+
+my_function7(Food)
+
+def my_function8():
+    pass
+
+
