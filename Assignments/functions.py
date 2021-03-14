@@ -26,4 +26,3 @@ def my_function4(*Fruits):
   print("The smallest fruit is:"+ Fruits[1])
 
 my_function4("apples","grape","Pinneapple")
-
